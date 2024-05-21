@@ -1,0 +1,32 @@
+{
+  "name": "fmt-m2-secondtask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hevertonlr/FMT-M2-SecondTask.git"
+  },
+  "author": "Heverton L. Roieski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hevertonlr/FMT-M2-SecondTask/issues"
+  },
+  "homepage": "https://github.com/hevertonlr/FMT-M2-SecondTask#readme",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "devicon": "^2.16.0",
+    "gulp": "^5.0.0",
+    "gulp-copy": "^4.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.77.2"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3"
+  }
+}

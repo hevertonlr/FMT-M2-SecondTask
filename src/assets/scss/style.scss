@@ -1,0 +1,80 @@
+// @import "bootstrap/scss/bootstrap";
+
+// @import "@fortawesome/fontawesome-free/scss/fontawesome";
+// @import "@fortawesome/fontawesome-free/scss/solid";
+// @import "@fortawesome/fontawesome-free/scss/brands";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-right: 0 !important;
+}
+.logo{
+    -webkit-mask: url(../img/logo.svg) no-repeat center;
+    mask: url(../img/logo.svg) no-repeat center;
+    &-menu{
+        fill: white;
+        background-color: transparent;
+        width: 40px;
+    }
+}
+section .skills {
+  text-align: center;
+  font-size: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  p {
+    font-size: 16px;
+  }
+  @media only screen and (min-width: 550px) {
+    flex-wrap: nowrap;
+    font-size: 75px;
+  }
+}
+
+section{
+  &#contato{
+
+  }
+
+  &#sobre{
+    img{
+      width: 20%;
+      border-radius: 50%;
+    }
+  }
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: white;
+}
+
+footer{
+  background-color: #212529;
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+
+.carousel-item {
+  height: 32rem;
+}
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+}
